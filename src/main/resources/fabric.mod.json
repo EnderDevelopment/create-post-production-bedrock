@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "createport",
+  "version": "${mod_version}",
+  "name": "Create Port",
+  "description": "Ports the Create mod from Java to Bedrock",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.createport.CreatePortMod"
+    ]
+  },
+  "mixins": [
+    "createport.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.20.1"
+  }
+}
